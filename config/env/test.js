@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  db: 'mongodb://' + (process.env.DB_PORT_27017_TCP_ADDR || 'localhost') + '/mean-test',
+  db: 'mongodb://test:PAssw0rd5$$@ds059938.mongolab.com:59938/mean-test', //'mongodb://' + (process.env.DB_PORT_27017_TCP_ADDR || 'localhost') + '/mean-test',
   http: {
     port: 3001
   },
